@@ -3,11 +3,5 @@
   "version": 2,
   "alias": [
     "react-hackernews-clone.vercel.app"
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "https://react-hacknews.herokuapp.com/$1"
-    }
   ]
 }
