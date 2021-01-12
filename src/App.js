@@ -111,7 +111,7 @@ export default class App extends React.PureComponent {
             </nav>
             <a
               className="github"
-              href="https://github.com/JounQin/react-hackernews"
+              href="https://github.com/andy1729/react-hackernews"
               target="_blank"
               rel="noopener noreferrer"
             >
