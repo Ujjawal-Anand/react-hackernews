@@ -2,7 +2,7 @@
   "name": "react-hackernews",
   "version": 2,
   "alias": [
-    "react-hn.vercel.app"
+    "react-hackernews.vercel.app"
   ],
   "rewrites": [
     {

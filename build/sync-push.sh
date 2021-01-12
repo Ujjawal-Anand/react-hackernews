@@ -13,7 +13,7 @@ main() {
       local CREATED=1
 
       {
-        git clone https://user:${GH_TOKEN}@github.com/JounQin/react-hackernews.git sync -b assets
+        git clone https://user:${GH_TOKEN}@github.com/andy1729/react-hackernews.git sync -b assets
       } || {
         echo "branch \`assets\` has not been created"
         CREATED=0
@@ -21,7 +21,7 @@ main() {
         cd sync
         git init
         git checkout -b assets
-        git remote add origin https://user:${GH_TOKEN}@github.com/JounQin/react-hackernews.git
+        git remote add origin https://user:${GH_TOKEN}@github.com/andy1729/react-hackernews.git
         cd ..
       }
 

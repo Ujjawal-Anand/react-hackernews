@@ -3,5 +3,5 @@
 set -e
 
 rm -rf dist
-git clone https://github.com/JounQin/react-hackernews.git dist -b assets
+git clone https://github.com/andy1729/react-hackernews.git dist -b assets
 rm -rf dist/.git
